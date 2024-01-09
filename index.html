@@ -10,22 +10,22 @@
 
 <body>
     <header>
-        <!-- Seção para a nuvem de palavras -->
+        
         <section id="word-cloud">
             <div class="word-cloud-container"></div>
         </section>
     </header>
 
-    <!-- Seção para o vídeo -->
+    
     <section id="video-section">
-        <video controls width="100%" autoplay>
+        <video controls width="100%" autoplay muted>
             <source src="videos/AdobeStock_48311251_Video_HD_Preview (video-converter.com).mp4" type="video/mp4">
             Seu navegador não suporta o elemento de vídeo.
         </video>
     </section>
 
     <footer>
-        <!-- Seção para informações adicionais ou outros elementos -->
+        
     </footer>
 
     <script>
@@ -42,7 +42,7 @@
             { text: 'Programa Oracle Next Education F2T5 Back-end', weight: 3 },
         ];
 
-        // Aguarde a biblioteca ser carregada antes de usar a função WordCloud
+        
         document.addEventListener('DOMContentLoaded', function () {
             WordCloud(document.querySelector('.word-cloud-container'), {
                 list: words,
