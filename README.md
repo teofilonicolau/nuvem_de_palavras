@@ -7,6 +7,7 @@ Este é um projeto simples de site que combina uma nuvem de palavras dinâmica e
 - **Nuvem de Palavras (`#word-cloud`):**
   - A nuvem de palavras é gerada dinamicamente usando a biblioteca WordCloud.
   - A lista de palavras e seus pesos é definida no script, e a nuvem de palavras é exibida na seção de cabeçalho (`<header>`).
+  - https://teofilonicolau.github.io/nuvem_de_palavras/
 
 - **Vídeo (`#video-section`):**
   - Um elemento de vídeo é incorporado na seção do vídeo.
